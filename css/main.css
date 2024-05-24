@@ -1,0 +1,153 @@
+
+.login_section {
+    width: 100%;
+    max-width: 380px;
+    margin: 100px auto 0;
+    height: calc(100vh - 100px);
+    padding-top: 60px;
+}
+
+h2.page_title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.login_input + .login_input {
+    margin-top: 16px;
+}
+
+.login_input p {
+    font-size: 16px;
+    margin: 0 0 6px 10px;
+}
+
+.login_input input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E6E6E6;
+    color: #191919;
+    font-size: 14px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.login_input input:focus {
+    border-color: #CAC1FF;
+}
+
+.login_input input::placeholder {
+    color: #919191;
+}
+
+.login_form > .display_flex {
+    margin-top: 20px;
+}
+
+.id_send_label,
+.id_send_label * {
+    cursor: pointer;
+}
+
+.id_send_label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+input[class="id_send_input"] + span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #E6E6E6;
+    margin-right: 10px;
+}
+
+.find_box a {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login_submit_btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #C9C9C9;
+    transition: all 0.3s;
+    margin-top: 52px;
+}
+
+.login_submit_btn:hover,
+.login_submit_btn:focus {
+    background-color: #CAC1FF;
+    color: #fff;
+}
+
+
+.sns_login_box {
+    margin-top: 50px;
+}
+
+.sns_login_box > p {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    color: #626262;
+}
+
+.sns_login_box > p::after,
+.sns_login_box > p::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(100% - 240px);
+    height: 1px;
+    background-color: #F4F4F4;
+}
+
+.sns_login_box > p::after {
+    left: 0;
+}
+
+.sns_login_box > p::before {
+    right: 0;
+}
+
+.sns_link_tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.sns_link_tag a {
+    display: block;
+    width: 62px;
+    height: 62px;
+    border-radius: 31px;
+    border: 1px solid #919191;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.sns_link_tag a + a {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
