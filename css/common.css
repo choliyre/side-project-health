@@ -118,15 +118,8 @@ input::placeholder {
 .main_section {
     width: calc(100% - 32px);
     margin: 0 auto;
+    padding-bottom: 80px;
 }
-
-
-
-
-
-
-
-
 
 
 
